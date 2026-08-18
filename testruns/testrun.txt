@@ -1,0 +1,66 @@
+Test Run 1:
+
+Welcome to the Interactive SQL Inventory Manager!
+
+==============================
+1. Add a New Product
+2. View Full Inventory Report
+3. Update Product Stock
+4. Delete a Product
+5. Exit System
+==============================
+Enter your choice (1-5): 1
+
+--- Add New Product ---
+Enter Product ID (e.g., T-001): T-001
+Enter Product Name: Bluetooth Mouse
+Enter Price (e.g., 19.99): 20.00
+Enter Initial Stock Quantity: 50
+✅ SUCCESS: 'Bluetooth Mouse' added to the database.
+
+Test Run 2:
+
+==============================
+1. Add a New Product
+2. View Full Inventory Report
+3. Update Product Stock
+4. Delete a Product
+5. Exit System
+==============================
+Enter your choice (1-5): 2 
+
+=== SQL DATABASE INVENTORY REPORT ===
+[T-001] Bluetooth Mouse | Stock: 50 | Price: $20.00
+------------------------------------
+Total Database Value: $1000.00
+
+
+Test Run 3:
+
+==============================
+1. Add a New Product
+2. View Full Inventory Report
+3. Update Product Stock
+4. Delete a Product
+5. Exit System
+==============================
+Enter your choice (1-5): 3
+
+--- Update Product Stock ---
+Enter Product ID to update: T-001
+Enter new stock quantity: 40
+✅ SUCCESS: Product 'T-001' stock updated to 40.
+
+==============================
+1. Add a New Product
+2. View Full Inventory Report
+3. Update Product Stock
+4. Delete a Product
+5. Exit System
+==============================
+Enter your choice (1-5): 4
+
+--- Delete Product ---
+Enter Product ID to delete: T-001
+Are you sure you want to delete 'T-001'? (y/n): y
+✅ SUCCESS: Product 'T-001' has been deleted.
